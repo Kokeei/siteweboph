@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="lagoon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bb7c4"/><stop offset="1" stop-color="#0b6f8f"/></linearGradient></defs><rect width="1200" height="675" fill="#e7f0f8"/>
+       <rect x="300" y="140" width="600" height="370" rx="18" fill="#1d2b3a"/><rect x="322" y="162" width="556" height="326" rx="6" fill="#fff"/>
+       <rect x="250" y="510" width="700" height="28" rx="10" fill="#38495c"/>
+       <rect x="352" y="192" width="220" height="24" rx="6" fill="#0b4f8a"/>
+       <rect x="352" y="240" width="496" height="40" rx="8" fill="#f4f7fa" stroke="#dde4ec"/><rect x="352" y="300" width="496" height="40" rx="8" fill="#f4f7fa" stroke="#dde4ec"/><rect x="352" y="360" width="496" height="40" rx="8" fill="#f4f7fa" stroke="#dde4ec"/>
+       <rect x="352" y="424" width="170" height="40" rx="20" fill="#e97b2b"/>
+       <g transform="translate(900 280)"><rect width="150" height="280" rx="22" fill="#1d2b3a"/><rect x="12" y="24" width="126" height="230" rx="8" fill="#11a0a6"/></g></svg>
