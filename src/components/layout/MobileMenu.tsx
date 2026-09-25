@@ -40,7 +40,7 @@ export function MobileMenu({ open, onClose, items, pathname }: { open: boolean; 
   }, [open, onClose]);
 
   return (
-    <div className={`fixed inset-0 z-50 lg:hidden ${open ? "" : "pointer-events-none"}`} aria-hidden={!open}>
+    <div className={`fixed inset-0 z-50 transition-[visibility] duration-300 xl:hidden ${open ? "visible" : "pointer-events-none invisible"}`} aria-hidden={!open}>
       <div className={`absolute inset-0 bg-ink/50 transition-opacity ${open ? "opacity-100" : "opacity-0"}`} onClick={onClose} />
       <div
         id="mobile-menu"

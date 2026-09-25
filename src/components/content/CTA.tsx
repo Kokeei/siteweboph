@@ -11,7 +11,7 @@ export function CTA({ title, text, href, label, variant = "primary" }: { title: 
       <div className="relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
         <div>
           <h2 className="text-2xl font-extrabold md:text-3xl">{title}</h2>
-          <p className="mt-2 max-w-xl text-white/90">{text}</p>
+          <p className="mt-2 max-w-xl text-white">{text}</p>
         </div>
         <ButtonLink href={href} variant={variant === "primary" ? "accent" : "white"} size="lg" className="shrink-0">
           {label}

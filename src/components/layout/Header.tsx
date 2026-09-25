@@ -45,7 +45,7 @@ export function Header() {
           </button>
           <Link
             href="/connexion"
-            className="hidden items-center gap-2 rounded-[var(--radius-btn)] bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark sm:inline-flex"
+            className="hidden items-center gap-2 rounded-[var(--radius-btn)] bg-accent px-5 py-2.5 whitespace-nowrap text-sm font-semibold text-white transition-colors hover:bg-accent-dark sm:inline-flex"
           >
             <UserRound className="h-4 w-4" aria-hidden="true" />
             Mon espace
@@ -53,7 +53,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => setMobileOpen(true)}
-            className="flex h-11 w-11 items-center justify-center rounded-full text-primary hover:bg-primary-light lg:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-full text-primary hover:bg-primary-light xl:hidden"
             aria-label="Ouvrir le menu"
             aria-expanded={mobileOpen}
             aria-controls="mobile-menu"

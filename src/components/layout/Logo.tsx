@@ -8,7 +8,7 @@ export function Logo({ light = false, compact = false }: { light?: boolean; comp
       {!compact && (
         <span className="flex flex-col leading-none">
           <span className={`font-heading text-2xl font-extrabold tracking-tight ${light ? "text-white" : "text-primary"}`}>OPH</span>
-          <span className={`mt-1 hidden text-[0.7rem] font-semibold uppercase tracking-wider sm:block ${light ? "text-white/80" : "text-muted"}`}>
+          <span className={`mt-1 hidden text-[0.7rem] font-semibold uppercase tracking-wide sm:block ${light ? "text-white/80" : "text-muted"}`}>
             Office Polynésien de l&apos;Habitat
           </span>
         </span>

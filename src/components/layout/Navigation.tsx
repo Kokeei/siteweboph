@@ -28,11 +28,11 @@ export function Navigation({ items, pathname }: { items: NavItem[]; pathname: st
     };
   }, []);
 
-  const linkBase = "relative flex items-center gap-1 px-3 py-2 text-[0.95rem] font-semibold transition-colors xl:px-4";
+  const linkBase = "relative flex items-center gap-1 whitespace-nowrap px-3 py-2 text-[0.95rem] font-semibold transition-colors xl:px-4";
   const underline = "after:absolute after:inset-x-3 after:-bottom-0.5 after:h-[3px] after:rounded-full after:bg-accent after:transition-transform xl:after:inset-x-4";
 
   return (
-    <nav ref={ref} aria-label="Menu principal" className="hidden lg:block">
+    <nav ref={ref} aria-label="Menu principal" className="hidden xl:block">
       <ul className="flex items-center">
         {items.map((item) => {
           const active = isActive(pathname, item);
