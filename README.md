@@ -24,6 +24,8 @@ Variables d'environnement (facultatives, aucune n'est secrète) :
 |---|---|
 | `NEXT_PUBLIC_SITE_URL` | URL canonique (sitemap, Open Graph) |
 | `NEXT_PUBLIC_ALLOW_INDEXING` | `true` pour autoriser l'indexation |
+| `SITE_PASSWORD` | active une protection par mot de passe (navigateur) sur tout le site |
+| `SITE_USER` | identifiant associé (`oph` par défaut) |
 
 ## Scripts
 
